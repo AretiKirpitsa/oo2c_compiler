@@ -1,0 +1,41 @@
+Class name: NumberProcessor
+Fields: [value: int]
+Inherits from: []
+Methods:
+	Method name: NumberProcessor
+	Fields: [self_ptr: NumberProcessor, v: int]
+	Parameter num: 2
+	Version: 1
+	Returns: NumberProcessor
+	Constructor: True
+  
+	Method name: get_value
+	Fields: [self_ptr: NumberProcessor]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+  
+	Method name: is_positive
+	Fields: [self_ptr: NumberProcessor, result: int]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+  
+	Method name: sum_to_value
+	Fields: [self_ptr: NumberProcessor, sum: int, i: int]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Class name: main
+Fields: [np: NumberProcessor, result: int]
+Inherits from: []
+Methods:
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+

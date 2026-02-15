@@ -1,0 +1,58 @@
+##############################################################
+
+class Calculator:
+    int value;
+    ;
+    def __init__(self): Calculator
+        self.value = 0;
+        ;
+    
+    def __init__(self, int initial): Calculator
+        self.value = initial;
+        ;
+    
+    def add(self, int a): -
+        self.value = self.value + a;
+        ;
+    
+    def add(self, int a, int b): -
+        self.value = self.value + a + b;
+        ;
+    
+    def multiply(self, int factor): -
+        self.value = self.value * factor;
+        ;
+    
+    def get_value(self): int
+        return self.value;
+        ;
+    
+    def reset(self): -
+        self.value = 0;
+        ;
+
+##############################################################
+
+class Main:
+    Calculator c1, c2;
+    int temp;
+    ;
+    def main(self): -
+        c1 = Calculator();
+        print c1.get_value();
+        
+        c1.add(5);
+        print c1.get_value();
+        
+        c1.add(3, 7);
+        print c1.get_value();
+        
+        c1.multiply(2);
+        print c1.get_value();
+        
+        c2 = Calculator(100);
+        print c2.get_value();
+        
+        c2.add(50);
+        print c2.get_value();
+        ;

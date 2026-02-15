@@ -1,0 +1,30 @@
+##############################################################
+
+class Counter:
+    int count;
+    ;
+    def __init__(self, int start): Counter
+        self.count = start;
+        ;
+    
+    def increment(self): -
+        self.count = self.count + 1;
+        ;
+    
+    def get_count(self): int
+        return self.count;
+        ;
+
+##############################################################
+
+class Main:
+    Counter c;
+    ;
+    def main(self): -
+        c = Counter(0);
+        print c.get_count();
+        c.increment();
+        print c.get_count();
+        c.increment();
+        print c.get_count();
+        ;

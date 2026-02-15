@@ -1,0 +1,75 @@
+Class name: Point
+Fields: [x: int, y: int]
+Inherits from: []
+Methods:
+	Method name: Point
+	Fields: [self_ptr: Point, x: int, y: int]
+	Parameter num: 3
+	Version: 1
+	Returns: Point
+	Constructor: True
+  
+	Method name: get_x
+	Fields: [self_ptr: Point]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+  
+	Method name: get_y
+	Fields: [self_ptr: Point]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+  
+	Method name: set_x
+	Fields: [self_ptr: Point, new_x: int]
+	Parameter num: 2
+	Version: 1
+	Returns: void
+	Constructor: False
+  
+	Method name: distance_from_origin
+	Fields: [self_ptr: Point]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Class name: ColoredPoint
+Fields: [color: int]
+Inherits from: [Point]
+Methods:
+	Method name: ColoredPoint
+	Fields: [self_ptr: ColoredPoint, x: int, y: int, color: int]
+	Parameter num: 4
+	Version: 1
+	Returns: ColoredPoint
+	Constructor: True
+  
+	Method name: get_color
+	Fields: [self_ptr: ColoredPoint]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+  
+	Method name: set_color
+	Fields: [self_ptr: ColoredPoint, new_color: int]
+	Parameter num: 2
+	Version: 1
+	Returns: void
+	Constructor: False
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Class name: main
+Fields: [p: Point, cp: ColoredPoint, result: int]
+Inherits from: []
+Methods:
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+

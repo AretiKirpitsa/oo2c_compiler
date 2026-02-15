@@ -1,0 +1,68 @@
+##############################################################
+
+class Point:
+    int x, y;
+    ;
+    def __init__(self, int x, int y): Point
+        self.x = x;
+        self.y = y;
+        ;
+    
+    def get_x(self): int
+        return self.x;
+        ;
+    
+    def get_y(self): int
+        return self.y;
+        ;
+    
+    def set_x(self, int new_x): -
+        self.x = new_x;
+        ;
+    
+    def distance_from_origin(self): int
+        return self.x * self.x + self.y * self.y;
+        ;
+
+##############################################################
+
+class ColoredPoint (Point):
+    int color;
+    ;
+    def __init__(self, int x, int y, int color): ColoredPoint
+        self.x = x;
+        self.y = y;
+        self.color = color;
+        ;
+    
+    def get_color(self): int
+        return self.color;
+        ;
+    
+    def set_color(self, int new_color): -
+        self.color = new_color;
+        ;
+
+##############################################################
+
+class Main:
+    Point p;
+    ColoredPoint cp;
+    int result;
+    ;
+    def main(self): -
+        p = Point(3, 4);
+        print p.get_x(), p.get_y();
+        
+        result = p.distance_from_origin();
+        print result;
+        
+        p.set_x(5);
+        print p.get_x();
+        
+        cp = ColoredPoint(10, 20, 255);
+        print cp.get_x(), cp.get_y(), cp.get_color();
+        
+        cp.set_color(128);
+        print cp.get_color();
+        ;

@@ -1,0 +1,62 @@
+Class name: Calculator
+Fields: [value: int]
+Inherits from: []
+Methods:
+	Method name: Calculator
+	Fields: [self_ptr: Calculator]
+	Parameter num: 1
+	Version: 1
+	Returns: Calculator
+	Constructor: True
+  
+	Method name: Calculator
+	Fields: [self_ptr: Calculator, initial: int]
+	Parameter num: 2
+	Version: 2
+	Returns: Calculator
+	Constructor: True
+  
+	Method name: add
+	Fields: [self_ptr: Calculator, a: int]
+	Parameter num: 2
+	Version: 1
+	Returns: void
+	Constructor: False
+  
+	Method name: add
+	Fields: [self_ptr: Calculator, a: int, b: int]
+	Parameter num: 3
+	Version: 2
+	Returns: void
+	Constructor: False
+  
+	Method name: multiply
+	Fields: [self_ptr: Calculator, factor: int]
+	Parameter num: 2
+	Version: 1
+	Returns: void
+	Constructor: False
+  
+	Method name: get_value
+	Fields: [self_ptr: Calculator]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+  
+	Method name: reset
+	Fields: [self_ptr: Calculator]
+	Parameter num: 1
+	Version: 1
+	Returns: void
+	Constructor: False
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Class name: main
+Fields: [c1: Calculator, c2: Calculator, temp: int]
+Inherits from: []
+Methods:
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+

@@ -1,0 +1,34 @@
+Class name: Counter
+Fields: [count: int]
+Inherits from: []
+Methods:
+	Method name: Counter
+	Fields: [self_ptr: Counter, start: int]
+	Parameter num: 2
+	Version: 1
+	Returns: Counter
+	Constructor: True
+  
+	Method name: increment
+	Fields: [self_ptr: Counter]
+	Parameter num: 1
+	Version: 1
+	Returns: void
+	Constructor: False
+  
+	Method name: get_count
+	Fields: [self_ptr: Counter]
+	Parameter num: 1
+	Version: 1
+	Returns: int
+	Constructor: False
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Class name: main
+Fields: [c: Counter]
+Inherits from: []
+Methods:
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+

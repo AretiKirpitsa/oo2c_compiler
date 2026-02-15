@@ -1,0 +1,53 @@
+##############################################################
+
+class NumberProcessor:
+    int value;
+    ;
+    def __init__(self, int v): NumberProcessor
+        self.value = v;
+        ;
+    
+    def get_value(self): int
+        return self.value;
+        ;
+    
+    def is_positive(self): int
+        int result;
+        ;
+        result = 0;
+        if (self.value > 0):
+            result = 1;
+        else:
+            result = 0;
+        endif;
+        return result;
+        ;
+    
+    def sum_to_value(self): int
+        int sum, i;
+        ;
+        sum = 0;
+        i = 1;
+        while (i <= self.value):
+            sum = sum + i;
+            i = i + 1;
+        endwhile;
+        return sum;
+        ;
+
+##############################################################
+
+class Main:
+    NumberProcessor np;
+    int result;
+    ;
+    def main(self): -
+        np = NumberProcessor(5);
+        print np.get_value();
+        
+        result = np.is_positive();
+        print result;
+        
+        result = np.sum_to_value();
+        print result;
+        ;
